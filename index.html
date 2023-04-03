@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Balancell</title>
+</head>
+
+<body id="tailwind-root">
+  <div id="root"></div>
+  <!-- https://github.com/aws/aws-amplify/issues/678 fix: -->
+  <script>
+    if (typeof global === 'undefined') {
+      var global = window;
+    }
+  </script>
+  <!-- https://github.com/aws/aws-amplify/issues/678 fix end-->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

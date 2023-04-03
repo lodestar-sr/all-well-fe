@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dashboard-card {
+  @apply rounded-md bg-white shadow-cardSmall flex flex-col items-center justify-center min-h-[210px] hover:cursor-pointer hover:bg-primary-hover;
+}
+
+.otp-input > input {
+  @apply h-16 !w-14 bg-gray-100 border-none text-2xl rounded-lg rounded-tl-none focus:ring-2 focus:ring-success;
+}

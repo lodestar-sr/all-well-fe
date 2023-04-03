@@ -1,0 +1,7 @@
+.inputBase {
+  @apply w-full rounded-lg border border-gray-400 p-4 h-9 py-6;
+}
+
+.inputError input {
+  @apply border-red-500;
+}
